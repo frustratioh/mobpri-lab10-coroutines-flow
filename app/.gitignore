@@ -1,1 +1,68 @@
-/build
+# Gradle files
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+.DS_Store
+
+# Android Studio files
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+*.iml
+!.idea/copyrights
+!.idea/artifacts
+!.idea/runConfigurations
+
+# Android Profiling
+*.hprof
+*.trace
+
+# Keystore files
+*.jks
+*.keystore
+
+# Generated files
+app/release/
+app/debug/
+app/build/
+output.json
+
+# Bintray
+*.bintray
+
+# Other
+/captures
+.externalNativeBuild
+.cxx
+*.crc
+*.json
+*.keystore
+!debug.keystore
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Bundle artifact
+*.jsb
+*.jsb.meta
+
+# CocoaPods
+Pods/
