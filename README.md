@@ -16,31 +16,31 @@
 ![Главный экран](app/screenshots/main.png)
 
 ### Часть 1: Базовые корутины
-![Корутины](screenshots/coroutines.png)
+![Корутины](app/screenshots/corutines.png)
 - Кнопка "Запустить долгую операцию" с задержкой 2 секунды
 - Кнопка "Вычислить сумму" для расчета суммы чисел
 - Индикатор загрузки во время выполнения
 
 ### Часть 2: Flow
-![Flow](screenshots/flow.png)
+![Flow](app/screenshots/flow.png)
 - Отображение чисел от 1 до 10 с задержкой
 - Преобразованный Flow с квадратами четных чисел
 - Обработка ошибок в Flow
 
 ### Часть 3: StateFlow
-![StateFlow](screenshots/stateflow.png)
+![StateFlow](app/screenshots/stateflow.png)
 - Счетчик с кнопками +1, -1, Сброс, +5
 - Автоинкремент с запуском/остановкой
 - Индикатор активности автоинкремента
 
 ### Часть 4: SharedFlow
-![SharedFlow](screenshots/sharedflow.png)
+![SharedFlow](app/screenshots/sharedflow.png)
 - Генерация случайных событий
 - Автоматическая генерация каждые 2 секунды
 - Отображение последних 10 событий
 
 ### Часть 5: Обработка ошибок
-![Обработка ошибок](screenshots/errorsprocessing.png)
+![Обработка ошибок](app/screenshots/errorsprocessing.png)
 - Успешная операция
 - Операция с ошибкой
 - Flow с обработкой ошибок
